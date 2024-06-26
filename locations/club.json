@@ -1,0 +1,161 @@
+[    {
+        "name": "Club",
+        "access_rules": ["$can_exit_beginning"],
+        "sections": [
+            {
+            "name": "Leaking robot",
+            "access_rules": ["Beer"],
+            "item_count": 1
+            },
+            {
+                "name": "Moist beer guy",
+                "access_rules": ["Beer"],
+                "item_count": 1
+            },
+            {
+                "name": "Guy laying on a pile of trash",
+                "access_rules": ["Ice"],
+                "item_count": 1
+            },
+            {
+                "name": "Consultant",
+                "access_rules": ["Ice,Beer"],
+                "item_count": 1
+            },
+            {
+                "name": "Bartender",
+                "access_rules": ["Ice,Cigarettes"],
+                "item_count": 1
+            },
+            {
+                "name": "Dancing phone soldier",
+                "access_rules": ["Rations,Beer"],
+                "item_count": 1
+            },
+            {
+                "name": "Dancing \"Missing hands\" guy",
+                "access_rules": ["Beer"],
+                "item_count": 1
+            },
+            {
+                "name": "Toilet whale",
+                "access_rules": [],
+                "item_count": 1
+            }           
+        ],
+        "map_locations": [
+            {
+                "map": "Rooftops",
+                "x": 1000,
+                "y": 200
+            }
+        ]
+    },
+    {
+        "name": "Club map",
+        "access_rules": ["$can_exit_beginning"],
+        "children": [
+            {
+                "name": "",
+                "sections": [
+                    {"ref": "Club/Leaking robot"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Club",
+                        "x": 664,
+                        "y": 306
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                    {"ref": "Club/Moist beer guy"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Club",
+                        "x": 957,
+                        "y": 373
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                    {"ref": "Club/Guy laying on a pile of trash"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Club",
+                        "x": 1057,
+                        "y": 364
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                    {"ref": "Club/Consultant"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Club",
+                        "x": 930,
+                        "y": 508
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                      {"ref": "Club/Bartender"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Club",
+                        "x": 1051,
+                        "y": 767
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                      {"ref": "Club/Dancing phone soldier"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Club",
+                        "x": 1044,
+                        "y": 569
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                    {"ref": "Club/Dancing \"Missing hands\" guy"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Club",
+                        "x": 1077,
+                        "y": 658
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                      {"ref": "Club/Toilet whale"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Club",
+                        "x": 880,
+                        "y": 821
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+
+
+

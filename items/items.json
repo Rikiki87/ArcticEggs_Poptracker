@@ -1,0 +1,80 @@
+[
+	{
+  "name": "Cigarettes",
+  "type": "toggle",
+  "img": "images/Items/Cigarettes.png",
+  "codes": "Cigarettes"
+  },
+  {
+    "name": "Rations",
+    "type": "toggle",
+    "img": "images/Items/Rations.png",
+    "codes": "Rations"    
+  },
+  {
+    "name": "Sausages",
+    "type": "toggle",
+    "img": "images/Items/Sausages.png",
+    "codes": "Sausages"
+  },
+  {
+    "name": "Bacon",
+    "type": "toggle",
+    "img": "images/Items/Bacon.png",
+    "codes": "Bacon"
+  },
+  {
+    "name": "Cockroaches",
+    "type": "toggle",
+    "img": "images/Items/Cockroaches.png",
+    "codes": "Cockroaches"
+  },
+  {
+    "name": "Bullets",
+    "type": "toggle",
+    "img": "images/Items/Bullets.png",
+    "codes": "Bullets"
+  },
+  {
+    "name": "Gizzard",
+    "type": "toggle",
+    "img": "images/Items/Gizzard.png",
+    "codes": "Gizzard"
+  },
+  {
+    "name": "Pizza",
+    "type": "toggle",
+    "img": "images/Items/Pizza.png",
+    "codes": "Pizza"
+  },
+  {
+    "name": "Beer",
+    "type": "toggle",
+    "img": "images/Items/Beer.png",
+    "codes": "Beer"
+  },
+  {
+    "name": "Ice",
+    "type": "toggle",
+    "img": "images/Items/Ice.png",
+    "codes": "Ice"
+  },
+  {
+    "name": "Pufferfish",
+    "type": "toggle",
+    "img": "images/Items/Pufferfish.png",
+    "codes": "Pufferfish"
+  },
+  {
+    "name": "Fish",
+    "type": "toggle",
+    "img": "images/Items/Fish.png",
+    "codes": "Fish"
+  },
+  {
+    "name": "Stingray",
+    "type": "toggle",
+    "img": "images/Items/Stingray.png",
+    "codes": "Stingray"
+  }
+]

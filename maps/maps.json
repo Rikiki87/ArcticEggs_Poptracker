@@ -1,0 +1,26 @@
+[
+	{
+        "name": "Rooftops",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/rooftops.png"
+    },
+    {
+        "name": "Prison",
+        "location_size": 35,
+        "location_border_thickness": 2,
+        "img": "images/maps/prison.png"
+    },
+    {
+        "name": "Club",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/club.png"
+    },
+    {
+        "name": "Docks",
+        "location_size": 20,
+        "location_border_thickness": 2,
+        "img": "images/maps/docks.png"
+    }
+]

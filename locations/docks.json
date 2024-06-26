@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Docks",
+        "access_rules": ["$can_exit_beginning"],
+        "sections": [
+            {
+                "name": "Entrance soldier",
+                "access_rules": ["Pufferfish,Cigarettes"],
+                "item_count": 1
+              },
+              {
+                "name": "\"Got your nose\" guy",
+                "access_rules": ["Pufferfish"],
+                "item_count": 1
+              },
+              {
+                "name": "Veteran soldier",
+                "access_rules": ["Fish,Cigarettes"],
+                "item_count": 1
+              },
+              {
+                "name": "Guy on the right of the fish stall",
+                "access_rules": ["Pufferfish,Cigarettes,Bacon"],
+                "item_count": 1
+              },
+              {
+                "name": "Fisherman stall",
+                "access_rules": ["Bacon"],
+                "item_count": 1
+              },
+              {
+                "name": "2 soldiers next to the stairs",
+                "access_rules": ["Fish,Rations"],
+                "item_count": 1
+              },
+              {
+                "name": "Enrique",
+                "access_rules": ["Stingray"],
+                "item_count": 1
+              },
+              {
+                "name": "Shirtless man of theseus",
+                "access_rules": ["Fish,Pufferfish"],
+                "item_count": 1
+              }
+        ],
+        "map_locations": [
+            {
+                "map": "Rooftops",
+                "x": 500,
+                "y": 750
+            }
+        ]
+    },
+    {
+        "name": "Docks map",
+        "access_rules": ["$can_exit_beginning"],
+        "children": [
+            {
+                "name": "",
+                "sections": [
+                    {"ref": "Docks/Entrance soldier"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 620,
+                        "y": 243
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                    {"ref": "Docks/\"Got your nose\" guy"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 816,
+                        "y": 378
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                    {"ref": "Docks/Veteran soldier"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 537,
+                        "y": 292
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                    {"ref": "Docks/Guy on the right of the fish stall"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 378,
+                        "y": 499
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                    {"ref": "Docks/Fisherman stall"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 181,
+                        "y": 460
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                    {"ref": "Docks/2 soldiers next to the stairs"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 523,
+                        "y": 505
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                    {"ref": "Docks/Enrique"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 771,
+                        "y": 471
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                    {"ref": "Docks/Shirtless man of theseus"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Docks",
+                        "x": 865,
+                        "y": 831
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+
+
+

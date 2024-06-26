@@ -1,0 +1,16 @@
+{
+    "name": "Arctic Eggs AP tracker",
+	"game_name": "Arctic Eggs",
+	"platform": "pc",
+	"package_version": "1.0.0",
+	"package_uid": "ArcticEggs_AP",
+	"author": "Rkiki87",
+	"variants": {
+		"standard": {
+			"display_name": "Archipelago Tracker",
+			"flags": [
+			    "ap"
+			]
+		}
+	}
+}

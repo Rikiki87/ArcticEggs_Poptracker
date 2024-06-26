@@ -1,0 +1,67 @@
+{
+    "tracker_default": {
+        "type": "dock",
+        "content": [
+            {
+                "type": "tabbed",
+                "tabs": [
+                    {
+                        "title": "Rooftops",
+                        "content": {
+                            "type": "map",
+                            "maps": ["Rooftops"]
+                        }
+                    },
+                    {
+                        "title": "Prison",
+                        "content": {
+                            "type": "map",
+                            "maps": ["Prison"]
+                        }
+                    },
+                    {
+                        "title": "Club",
+                        "content": {
+                            "type": "map",
+                            "maps": ["Club"]
+                        }
+                    },
+                    {
+                        "title": "Docks",
+                        "content": {
+                            "type": "map",
+                            "maps": ["Docks"]
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "itemgrid",
+                "h_alignment": "center",
+                "item_margin": "4,4",
+                "item_size": "5",
+                "rows": [
+                    [
+                        "Cigarettes",
+                        "Rations",
+                        "Sausages",
+                        "Bacon"
+                    ],
+					[
+						"Cockroaches",
+						"Bullets",
+						"Gizzard",
+						"Pizza"
+					],
+					[
+						"Beer",
+						"Ice",
+						"Pufferfish",
+						"Fish",
+                        "Stingray"
+					]
+                ]
+            }
+        ]
+    }		
+}

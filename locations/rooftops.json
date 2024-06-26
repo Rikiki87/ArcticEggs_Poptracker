@@ -1,0 +1,215 @@
+[
+    {
+        "name": "Rooftops",
+        "access_rules": [],
+        "children": [
+            {
+                "name": "Tutorial Soldier",
+                "sections": [
+                    { "name": "", "access_rules": [], "item_count": 1 }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rooftops",
+                        "x": 626,
+                        "y": 593
+                    }
+                ]
+            },
+            {
+                "name": "Cigarette guy",
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["Cigarettes"],
+                        "item_count": 1
+                      }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rooftops",
+                        "x": 613,
+                        "y": 510
+                    }
+                ]
+            },
+            {
+                "name": "Mariana trench guy",
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "item_count": 1
+                      }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rooftops",
+                        "x": 930,
+                        "y": 184
+                    }
+                ]
+            },
+            {
+                "name": "Salmonella guy",
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["Bacon"],
+                        "item_count": 1
+                      }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rooftops",
+                        "x": 982,
+                        "y": 324
+                    }
+                ]
+            },
+            {
+                "name": "Sausage cook",
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["Sausages"],
+                        "item_count": 1
+                      }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rooftops",
+                        "x": 885,
+                        "y": 252
+                    }
+                ]
+            },
+            {
+                "name": "\"Don't need sex\" guy",
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["Bacon,Cigarettes"],
+                        "item_count": 1
+                      }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rooftops",
+                        "x": 868,
+                        "y": 337
+                    }
+                ]
+            },
+            {
+                "name": "Fish ration soldier",
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["Rations,Cigarettes"],
+                        "item_count": 1
+                      }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rooftops",
+                        "x": 939,
+                        "y": 380
+                    }
+                ]
+            },
+            {
+                "name": "\"Ubiquitous\" guy",
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "item_count": 1
+                      }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rooftops",
+                        "x": 775,
+                        "y": 380
+                    }
+                ]
+            },
+            {
+                "name": "Cigarette girl",
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["Cigarettes"],
+                        "item_count": 1
+                      }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rooftops",
+                        "x": 595,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "name": "Tower Soldier",
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["Rations"],
+                        "item_count": 1
+                      }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rooftops",
+                        "x": 259,
+                        "y": 381
+                    }
+                ]
+            },
+            {
+                "name": "Polish GF soldier",
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": ["Rations"],
+                        "item_count": 1
+                      }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Rooftops",
+                        "x": 1105,
+                        "y": 482
+                    }
+                ]
+            }
+
+        ]
+    },
+    {
+        "name": "Tower",
+        "access_rules": ["$can_beat_game"],
+        "sections": [
+            {
+                "name": "Saint of Six Stomachs",
+                "access_rules": [],
+                "item_count": 1
+              },
+              { "name": "Top of Mt. Everest", "access_rules": [], "item_count": 1 }
+        ],
+        "map_locations": [
+            {
+                "map": "Rooftops",
+                "x": 25,
+                "y": 400
+            }
+        ]
+    }
+]
+
+
+
+

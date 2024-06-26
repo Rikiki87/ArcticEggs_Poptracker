@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Prison",
+        "access_rules": ["$can_exit_beginning"],
+        "sections": [
+            {
+                "name": "Interpretive plumbing",
+                "access_rules": ["Cockroaches"],
+                "item_count": 1
+              },
+              {
+                "name": "Gizzard guy",
+                "access_rules": ["Gizzard,Cigarettes"],
+                "item_count": 1
+              },
+              {
+                "name": "Cockroach Breeders",
+                "access_rules": ["Cockroaches"],
+                "item_count": 1
+              },
+              {
+                "name": "Bored soldier",
+                "access_rules": ["Bullets"],
+                "item_count": 1
+              },
+              {
+                "name": "Toilet bros",
+                "access_rules": ["Bacon,Bullets"],
+                "item_count": 1
+              },
+              {
+                "name": "Single toilet inmate",
+                "access_rules": ["Bullets"],
+                "item_count": 1
+              },
+              {
+                "name": "Backwards speech inmate",
+                "access_rules": ["Pizza,Bullets"],
+                "item_count": 1
+              },
+              {
+                "name": "Dolphin guy",
+                "access_rules": ["Bullets"],
+                "item_count": 1
+              }
+        ],
+        "map_locations": [
+            {
+                "map": "Rooftops",
+                "x": 1200,
+                "y": 550
+            }
+        ]
+    },
+    {
+        "name": "Prison map",
+        "access_rules": ["$can_exit_beginning"],
+        "children": [
+            {
+                "name": "",
+                "sections": [
+                    {"ref": "Prison/Interpretive plumbing"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Prison",
+                        "x": 160,
+                        "y": 1206
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                    {"ref": "Prison/Gizzard guy"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Prison",
+                        "x": 1868,
+                        "y": 1364
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                    {"ref": "Prison/Cockroach Breeders"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Prison",
+                        "x": 1226,
+                        "y": 1098
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                    {"ref": "Prison/Bored soldier"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Prison",
+                        "x": 1356,
+                        "y": 470
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                    {"ref": "Prison/Toilet bros"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Prison",
+                        "x": 1188,
+                        "y": 256
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                    {"ref": "Prison/Single toilet inmate"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Prison",
+                        "x": 680,
+                        "y": 290
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                    {"ref": "Prison/Backwards speech inmate"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Prison",
+                        "x": 4,
+                        "y": 734
+                    }
+                ]
+            },{
+                "name": "",
+                "sections": [
+                    {"ref": "Prison/Dolphin guy"}
+                ],
+                "map_locations": [
+                    {
+                        "map": "Prison",
+                        "x": 962,
+                        "y": 334
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+
+
+
